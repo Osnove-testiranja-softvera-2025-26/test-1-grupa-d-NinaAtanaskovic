@@ -114,7 +114,7 @@ namespace OTS2026_GrupaD
             Map.EmptyTileOnLocation(Player.Location);
         }
 
-
+        //ZA PICT
         public Score CalculateScore()
         {
             if (Player.AmountOfHoneyJars > 15)

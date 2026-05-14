@@ -1,0 +1,10 @@
+﻿klase ekvivalenicije : 
+Jars;[0-6][7-15]15+
+Flowers: [0-12]
+
+Score: Poor, Average, Good 
+Jars: 0, 1, 5, 6, 7, 8, 14, 15, 3, 11, 16
+Flowers: 0, 1, 6, 11, 12 
+BeeCol: yes, no 
+if[Jars] > 15 then [Score] = "Good";
+if[Flowers] > 11 and  [BeeCol] == "yes" and [Jars] > 6 then [Score] =  "Good" else [Score] =  "Poor";
